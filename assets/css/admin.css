@@ -1,0 +1,4 @@
+.required-form::after {
+    content: " *";
+    color: red;
+}

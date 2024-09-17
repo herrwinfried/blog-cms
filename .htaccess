@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteRule ^news/([^/]*)$ /news.php?id=$1 [L]
+RewriteRule ^page/([^/]*)$ /page.php?url=$1 [L]
+
+RewriteRule ^admin/$ /admin/index.php [NC]
+RewriteRule ^admin/delete/news/([^/]*)$ /admin/delete/news.php?id=$1 [L]
+RewriteRule ^admin/delete/users/([^/]*)$ /admin/delete/users.php?id=$1 [L]
+RewriteRule ^admin/edit/news/([^/]*)$ /admin/edit/news.php?id=$1 [L]
+RewriteRule ^admin/edit/users/([^/]*)$ /admin/edit/users.php?id=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+RewriteRule ^([a-z]+)\/?$ $1.php [NC]
