@@ -1,16 +1,24 @@
 # Blog Projesi
-Bu Proje ile wordpress benzerliğini yakalıcak kendi web uygulamamı yazmayı amaçlamaktayım.
 
-### Eklenecekler
-- [ ] Rank Ekleme, Silme, Düzenleme
-- [ ] Kullanıcının Rank Düzenleme
-- [ ] Menüleri Kontrol etme
-- [ ] Yönetim Paneline Carousel Ekleme,Çıkarma, Listeleme
+Bu projede, WordPress'e benzer bir web uygulaması geliştirmeyi amaçlıyorum.
+
+## Eklenecek Özellikler
+
+- [ ] Rank ekleme, silme, düzenleme
+- [ ] Kullanıcının rank düzenleme
+- [ ] Menüleri kontrol etme
+- [ ] Yönetim paneline carousel ekleme, çıkarma, listeleme
 - [ ] İçerikler için kategori ekleme
-- [ ] İçerikler için file manager ekleme
+- [ ] İçerikler için dosya yöneticisi ekleme
 - [ ] Kayıt olurken veya kullanıcı oluştururken parola güçlendirme koşulu
-- [ ] İçeriklere Yorum Yapabilme
-- [ ] Basit Kullanıcı Profilleri
-- [ ] Yönetim Paneli Responsive Design Haline getirme
-- [ ] İçerikler Kısmı Ekleme
-- [ ] Sayfa Oluşturma
+- [ ] İçeriklere yorum yapabilme
+- [ ] Basit kullanıcı profilleri
+- [ ] Yönetim panelini responsive tasarıma dönüştürme
+- [ ] İçerik yönetimi ekleme
+- [ ] Sayfa oluşturma
+
+## Önizlemeler
+
+| Giriş Sayfası        | Haber Listesi         | Haber Düzenleme         |
+|----------------------|-----------------------|-------------------------|
+| ![Giriş](/doc/image/home.png) | ![Haber Listesi](/doc/image/news_list.png) | ![Haber Düzenleme](/doc/image/news_edit.png) |
